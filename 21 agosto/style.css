@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap');
+
+/* Estilos tipogra */
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  p, li {
+    line-height: 1.6;
+  }
+figcaption {
+    font-size: .6rem;
+}
+h1, h2, h3, ul, p, figure {
+    padding: 1rem;
+}
+
+  /* Columnas */
+
+.columnas {
+    columns: 3 400px;
+  }
+
+  /* Imagenes */
+
+  img {
+    width: 40%;
+    object-fit: cover;
+  }
+.clip-me {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+.clip-you {
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+
+.clip-otro { 
+    width: 50%;
+    float: left;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    shape-outside: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);;
+}
