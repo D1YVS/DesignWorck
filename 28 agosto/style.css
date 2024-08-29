@@ -1,0 +1,49 @@
+header {
+    background-color: rgb(21, 56, 86);
+}
+main {
+    background-color: rgb(42, 88, 157);
+}
+aside {
+    background-color: rgb(54, 134, 144);
+}
+footer {
+    background-color: rgb(15, 220, 220);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 1rem;
+    grid-template-areas: 
+    "cabeza cabeza cabeza"
+    "principal principal lado"
+    "pie pie pie"
+    ;
+ }
+
+ header {
+    grid-area: cabeza;
+ }
+ main {
+    grid-area: principal;
+ }
+ aside {
+    grid-area: lado;
+   /* grid-area: 1 / 2 / 3 / 4 ; */
+ }
+ footer {
+    grid-area: pie;
+ }
+ svg {
+    width: 50%;
+ }
+ h1,p {
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+.borde {
+    border-radius: 10px 10px 10px 10px;
+}

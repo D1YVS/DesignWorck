@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola guapo</title>
+    <link rel="stylesheet" href="./Hola guapo_files/style.css">
+</head>
+<body>
+    <div class="container">
+    <main>
+        <h1>cosas bonitas</h1>
+        <p>La palabra kawaii es escrita con dos kanjis: 可, que se lee ka según la lectura on'yomi y cuyo significado es 'tolerable', 'pasable' o 'posible'; y 愛, que se lee ai según la lectura on'yomi y cuyo significado es 'amor'.3​ Al unir ambos ideogramas, la lectura del segundo kanji cambia a wai para evitar el efecto fonético de pronunciar dos aes seguidas (ka-ai), sonido que no es común en el idioma japonés.4​ El último carácter es el hiragana い (i), que hace distinción a uno de los dos tipos de desinencia de los adjetivos japoneses (adjetivos terminados en い y adjetivos terminados en な).
+
+            También el término 可愛い tiene una lectura alternativa, pero obsoleta y arcaica, kawayui. De igual manera existen palabras en japonés que se derivan de la voz kawaii: kawairashii (可愛らしい?), un adjetivo que se puede traducir como 'adorable' o 'dulce'; kawaigaru (可愛がる?), un verbo que se traduce como 'enamorarse' o 'encantarse' o kawaige (可愛げ?), una palabra que describe el “encanto de un niño inocente”.3​
+            
+            En el japonés antiguo se describía la ternura con el término utsukushi (愛し?) que tiene el mismo significado que la palabra kawaii.</p>
+        <div id="my div"></div>
+    </main>
+    <aside>
+        <p>aside</p>
+    </aside>
+     <footer>
+        <p>footer</p>
+     </footer>
+    </div>
+    <script src="./Hola guapo_files/vivus.js"></script>
+    <script>
+        new Vivus('obturateur1', {type: 'delayed', duration: 150}
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

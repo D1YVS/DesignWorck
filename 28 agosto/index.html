@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola guapo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="head">
+<p>dshfvbdehwbgvwdegnvjognrvjkfnv</p>
+        </header>
+    <main class="borde,main">
+        <h1>cosas bonitas</h1>
+        <p>La palabra kawaii es escrita con dos kanjis: 可, que se lee ka según la lectura on'yomi y cuyo significado es 'tolerable', 'pasable' o 'posible'; y 愛, que se lee ai según la lectura on'yomi y cuyo significado es 'amor'.3​ Al unir ambos ideogramas, la lectura del segundo kanji cambia a wai para evitar el efecto fonético de pronunciar dos aes seguidas (ka-ai), sonido que no es común en el idioma japonés.4​ El último carácter es el hiragana い (i), que hace distinción a uno de los dos tipos de desinencia de los adjetivos japoneses (adjetivos terminados en い y adjetivos terminados en な).
+
+            También el término 可愛い tiene una lectura alternativa, pero obsoleta y arcaica, kawayui. De igual manera existen palabras en japonés que se derivan de la voz kawaii: kawairashii (可愛らしい?), un adjetivo que se puede traducir como 'adorable' o 'dulce'; kawaigaru (可愛がる?), un verbo que se traduce como 'enamorarse' o 'encantarse' o kawaige (可愛げ?), una palabra que describe el “encanto de un niño inocente”.3​
+            
+            En el japonés antiguo se describía la ternura con el término utsukushi (愛し?) que tiene el mismo significado que la palabra kawaii.</p>
+        <div id="my-div"></div>
+    </main>
+    <aside class="lado">
+        <p>aside</p>
+    </aside>
+     <footer class="pie">
+        <p>footer</p>
+     </footer>
+    </div>
+    <script src="JS/vivus.js"></script>
+    <script>
+        new Vivus('my-div', {duration: 200, type: 'oneByOne', file: 'img/gg.svg'},);
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+ <script>
+    ScrollReveal().reveal('.head', { delay: 250, easing: 'ease-in'  });
+    ScrollReveal().reveal('.main' , { delay: 500, scale: 0.80  });
+    ScrollReveal().reveal('.lado',  { delay: 500, rotate:  {x:20 , z:20}});
+    ScrollReveal().reveal('.pie', { delay: 1000, distance: '150%' , origin: 'bottom'}) ;
+ </script>
+</body>
+</html>
